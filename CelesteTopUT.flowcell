@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<FlowCellDescriptor>
+    <Name>Celeste Top UT v1.7</Name>
+    <Version>1</Version>
+    <FlowCellType>CelesteTopUT</FlowCellType>
+    <FlowCellSize Width="23.0000 mm" Height="79.800 mm"/>
+    <LaneSize Width="7.5615 mm" Height="50.796096 mm"/> <!-- pinhole to pinhole measurements.  94 total tiles -->
+    <TileSize Width="0.5612 mm" Height="0.54097 mm"/>   <!-- effective tile size for compatibility to IAG -->
+    <Pitch>442.0 nm</Pitch> <!--srw: how does this get used? -->
+    <Surfaces>Top</Surfaces>
+    <IsUberTarget>true</IsUberTarget>
+    <SupportedFlowCellHolders>
+        <Type>FocalStationStage</Type>
+        <Type>FtmStationStage</Type>
+        <Type>Proto1</Type>
+    </SupportedFlowCellHolders>
+    <FlowCellImagingFeatures>
+        <Feature Name="CaptureStartNumTilesOffset" Content="Number of tile(s) offset for Image Capture Start." Value="2.313"/>
+    </FlowCellImagingFeatures>
+   
+    <FeaturePositionsRelativeToFlowCell>
+        <!-- Autocenter crosses -->
+        <Feature Name="AutoCenter1" X="6.370000 mm" Y="12.045000 mm" Surface="Top" Content="AutoCenter1"/>
+        <Feature Name="AutoCenter2" X="16.66300 mm" Y="12.045000 mm" Surface="Top" Content="AutoCenter2"/>
+        <Feature Name="AutoCenter3" X="16.66300 mm" Y="67.775500 mm" Surface="Top" Content="AutoCenter3"/>
+        <Feature Name="AutoCenter4" X="6.370000 mm" Y="67.775500 mm" Surface="Top" Content="AutoCenter4"/>
+
+        <!-- Lane 1 feature set -->
+        <Feature Name="Lane1RTADist0.5umCD3umPitch" X="6.370000 mm" Y="15.583000 mm" Surface="Top" Content="RTA Distortion feature, 0.5um diameter at 3um pitch, legacy fiducial design"/>
+        <Feature Name="Lane1RTADist1.0umCD3umPitch" X="6.370000 mm" Y="18.825000 mm" Surface="Top" Content="RTA Distortion feature, 1.0um diameter at 3um pitch, legacy fiducial design"/>
+        <Feature Name="Lane1VerticalKnifeEdge" X="6.370000 mm" Y="22608 mm" Surface="Top" Content="Vertical Knife Edge (Chrome Only)"/>
+        <Feature Name="Lane1HorizontalKnifeEdge" X="6.370000 mm" Y="21.527000 mm" Surface="Top" Content="Horizontal Knife Edge (Chrome Only)"/>
+        <Feature Name="Lane1HoriztonalLines0.5umWidth540umPitch" X="6.370000 mm" Y="25.323000 mm" Surface="Top" Content="HoriztonalLines 0.5um Width 540um Pitch"/>
+        <Feature Name="Lane1HoriztonalLines1.0umWidth540umPitch" X="6.370000 mm" Y="27.845000 mm" Surface="Top" Content="HorizontalLines 1um Width 100um Pitch"/>
+        <Feature Name="Lane1VerticalLine0.5umWidth" X="6.370000 mm" Y="30.715000 mm" Surface="Top" Content="HorizontalLines 1um Width 100um Pitch"/>       
+        <Feature Name="Lane1MTFSquares42umWidth" X="6.370000 mm" Y="33.959000 mm" Surface="Top" Content="Large MTF Squares"/>
+        <Feature Name="Lane1MTFSquares28umWidth" X="6.370000 mm" Y="37.203000 mm" Surface="Top" Content="Small MTF Squares"/>
+        <Feature Name="Lane1PinholeArray0.5umCD15umPitch" X="6.370000 mm" Y="40.438000 mm" Surface="Top" Content="Pinhole Array: 0.5um CD at 15um Pitch"/>
+        <Feature Name="Lane1Pinholes1.0umDiameter3umPitch" X="6.370000 mm" Y="43.685000 mm" Surface="Top" Content="Lane1Pinholes1.0umDiameter3umPitch"/>
+        <Feature Name="Lane1Pinholes0.5umDiameter3umPitch" X="6.370000 mm" Y="46.924000 mm" Surface="Top" Content="Lane1Pinholes0.5umDiameter3umPitch"/>
+        <Feature Name="Lane1Pinholes0.5umDiameter15umPitch" X="6.370000 mm" Y="50.180000 mm" Surface="Top" Content="Lane1Pinholes0.5umDiameter15umPitch"/>
+        <Feature Name="Lane1BigClearAperture" X="6.370000 mm" Y="58.825000 mm" Surface="Top" Content="Lane1BigClearAperture"/>
+        
+        <!-- Lane 2 feature set -->
+        <Feature Name="Lane2RTADist0.5umCD3umPitch" X="16.630000 mm" Y="15.583000 mm" Surface="Top" Content="RTA Distortion feature, 0.5um diameter at 3um pitch, legacy fiducial design"/>
+        <Feature Name="Lane2RTADist1.0umCD3umPitch" X="16.630000 mm" Y="18.825000 mm" Surface="Top" Content="RTA Distortion feature, 1.0um diameter at 3um pitch, legacy fiducial design"/>
+        <Feature Name="Lane2VerticalKnifeEdge" X="16.630000 mm" Y="22608 mm" Surface="Top" Content="Vertical Knife Edge (Chrome Only)"/>
+        <Feature Name="Lane2HorizontalKnifeEdge" X="16.630000 mm" Y="21.527000 mm" Surface="Top" Content="Horizontal Knife Edge (Chrome Only)"/>
+        <Feature Name="Lane2HoriztonalLines0.5umWidth540umPitch" X="16.630000 mm" Y="25.323000 mm" Surface="Top" Content="HoriztonalLines 0.5um Width 540um Pitch"/>
+        <Feature Name="Lane2HoriztonalLines1.0umWidth540umPitch" X="16.630000 mm" Y="27.845000 mm" Surface="Top" Content="HorizontalLines 1um Width 100um Pitch"/>
+        <Feature Name="Lane2VerticalLine0.5umWidth" X="16.630000 mm" Y="30.715000 mm" Surface="Top" Content="HorizontalLines 1um Width 100um Pitch"/>       
+        <Feature Name="Lane2MTFSquares42umWidth" X="16.630000 mm" Y="33.959000 mm" Surface="Top" Content="Large MTF Squares"/>
+        <Feature Name="Lane2MTFSquares28umWidth" X="16.630000 mm" Y="37.203000 mm" Surface="Top" Content="Small MTF Squares"/>
+        <Feature Name="Lane2PinholeArray0.5umCD15umPitch" X="16.630000 mm" Y="40.438000 mm" Surface="Top" Content="Pinhole Array: 0.5um CD at 15um Pitch"/>
+        <Feature Name="Lane2Pinholes1.0umDiameter3umPitch" X="16.630000 mm" Y="43.685000 mm" Surface="Top" Content="Lane2Pinholes1.0umDiameter3umPitch"/>
+        <Feature Name="Lane2Pinholes0.5umDiameter3umPitch" X="16.630000 mm" Y="46.924000 mm" Surface="Top" Content="Lane2Pinholes0.5umDiameter3umPitch"/>
+        <Feature Name="Lane2Pinholes0.5umDiameter15umPitch" X="16.630000 mm" Y="50.180000 mm" Surface="Top" Content="Lane2Pinholes0.5umDiameter15umPitch"/>
+        <Feature Name="Lane2BigClearAperture" X="16.630000 mm" Y="58.825000 mm" Surface="Top" Content="Lane2BigClearAperture"/>
+        
+        <!-- FMG Locations -->       
+        <Feature Name="FocusModelGenerationPrimaryTopSurfaceCenter" X="6.370000 mm" Y="46.924000 mm" Surface="Top" Tag="Primary" Content="Pinhole Array: Lane 1 0.5um CD at 3um Pitch"/>  
+        <Feature Name="FocusModelGenerationBackupTopSurfaceCenter" X="16.630000 mm" Y="46.924000 mm" Surface="Top" Tag="Backup" Content="Pinhole Array: Lane 2 0.5um CD at 3um Pitch"/>     
+        
+        <!-- AutoDetilt Calibration Locations - Requested by SGP -->
+        <Feature Name="AutoDetiltCalLoc1" X="6.37000 mm"  Y="13.15200 mm" Content="Auto detilt cal loc 1" Surface="Top" Tag="1" Order="1"/>
+        <Feature Name="AutoDetiltCalLoc2" X="6.37000 mm"  Y="66.64500 mm" Content="Auto detilt cal loc 2" Surface="Top" Tag="2" Order="2"/>
+        <Feature Name="AutoDetiltCalLoc3" X="16.63000 mm" Y="13.15204 mm" Content="Auto detilt cal loc 3" Surface="Top" Tag="3" Order="3"/>
+        <Feature Name="AutoDetiltCalLoc4" X="16.63000 mm" Y="66.64500 mm" Content="Auto detilt cal loc 4" Surface="Top" Tag="4" Order="4"/>
+
+        <!-- AutoDetilt Locations -->
+        <Feature Name="AutoDetiltGroup11" X="6.37000 mm" Y="13.15200 mm" Content="Auto detilt group 1 - 1st position" Surface="Top" Tag="1" Order="0"/>
+        <Feature Name="AutoDetiltGroup12" X="6.37000 mm" Y="13.25200 mm" Content="Auto detilt group 1 - 2nd position" Surface="Top" Tag="1" Order="1"/>
+        <Feature Name="AutoDetiltGroup13" X="6.37000 mm" Y="13.35200 mm" Content="Auto detilt group 1 - 3rd position" Surface="Top" Tag="1" Order="2"/>
+        <Feature Name="AutoDetiltGroup14" X="6.37000 mm" Y="13.45200 mm" Content="Auto detilt group 1 - 4th position" Surface="Top" Tag="1" Order="3"/>
+        <Feature Name="AutoDetiltGroup21" X="6.37000 mm" Y="66.64500 mm" Content="Auto detilt group 2 - 1st position" Surface="Top" Tag="2" Order="4"/>
+        <Feature Name="AutoDetiltGroup22" X="6.37000 mm" Y="66.54500 mm" Content="Auto detilt group 2 - 2nd position" Surface="Top" Tag="2" Order="5"/>
+        <Feature Name="AutoDetiltGroup23" X="6.37000 mm" Y="66.44500 mm" Content="Auto detilt group 2 - 3rd position" Surface="Top" Tag="2" Order="6"/>
+        <Feature Name="AutoDetiltGroup24" X="6.37000 mm" Y="66.34500 mm" Content="Auto detilt group 2 - 4th position" Surface="Top" Tag="2" Order="7"/>
+        <Feature Name="AutoDetiltGroup31" X="16.63000 mm" Y="13.15204 mm" Content="Auto detilt group 3 - 1st position" Surface="Top" Tag="3" Order="8"/>
+        <Feature Name="AutoDetiltGroup32" X="16.63000 mm" Y="13.25200 mm" Content="Auto detilt group 3 - 2nd position" Surface="Top" Tag="3" Order="9"/>
+        <Feature Name="AutoDetiltGroup33" X="16.63000 mm" Y="13.35200 mm" Content="Auto detilt group 3 - 3rd position" Surface="Top" Tag="3" Order="10"/>
+        <Feature Name="AutoDetiltGroup34" X="16.63000 mm" Y="13.45200 mm" Content="Auto detilt group 3 - 4th position" Surface="Top" Tag="3" Order="11"/>
+        <Feature Name="AutoDetiltGroup41" X="16.63000 mm" Y="66.64500 mm" Content="Auto detilt group 4 - 1st position" Surface="Top" Tag="4" Order="12"/>
+        <Feature Name="AutoDetiltGroup42" X="16.63000 mm" Y="66.54500 mm" Content="Auto detilt group 4 - 2nd position" Surface="Top" Tag="4" Order="13"/>
+        <Feature Name="AutoDetiltGroup43" X="16.63000 mm" Y="66.44500 mm" Content="Auto detilt group 4 - 3rd position" Surface="Top" Tag="4" Order="14"/>
+        <Feature Name="AutoDetiltGroup44" X="16.63000 mm" Y="66.34500 mm" Content="Auto detilt group 4 - 4th position" Surface="Top" Tag="4" Order="15"/>
+        
+        <!-- Misc. Locations -->
+        <Feature Name="CoarseXYOffsetCorner" X="5.766000 mm" Y="52.329000 mm" Content="corner of large clear area used for coarse XY offset" Surface="Top"/>   
+        <Feature Name="Lane1Pinholes0.5umWithRRFiducials" X="8.503077 mm" Y="39.911940 mm" Surface="Top" Content="Lane1 right hand side center swath, mock run tiles"/> 
+        <Feature Name="Lane2Pinholes0.5umWithRRFiducials" X="14.517863 mm" Y="39.911940 mm" Surface="Top" Content="Lane2 right hand side center swath, mock run tiles"/>
+        <Feature Name="FRF_FocusTracking_Location1" X="30.517382 mm" Y="13.961568 mm" Surface="Top" Content="Rear of instrument start of first swath ish"/>
+
+    </FeaturePositionsRelativeToFlowCell>
+
+    <LanePositionsRelativeToFlowCell>
+        <!-- Lane 1 mock run swaths -->
+        <LaneRelativeToFlowCell X="2.589 mm" Y="13.150992 mm" LaneNumber="1" PumpNumber="1"> <!-- lane to die corner distance -->
+            <!-- <SwathRelativeToLane X="0.4625 mm" Y="1.35096 mm" SwathNumber="1" IsValid="true" SwathDefinitionID="1" />-->
+            <SwathRelativeToLane X="1.0655 mm" Y="1.35096 mm" SwathNumber="2" IsValid="true" SwathDefinitionID="2" /> 
+            <SwathRelativeToLane X="1.6685 mm" Y="1.35096 mm" SwathNumber="3" IsValid="true" SwathDefinitionID="3" />
+            <SwathRelativeToLane X="2.2715 mm" Y="1.35096 mm" SwathNumber="4" IsValid="true" SwathDefinitionID="4" />
+            <SwathRelativeToLane X="2.8745 mm" Y="1.35096 mm" SwathNumber="5" IsValid="true" SwathDefinitionID="5" />
+            <SwathRelativeToLane X="4.6865 mm" Y="1.35096 mm" SwathNumber="6" IsValid="true" SwathDefinitionID="6" />
+            <SwathRelativeToLane X="5.2895 mm" Y="1.35096 mm" SwathNumber="7" IsValid="true" SwathDefinitionID="7" />
+            <SwathRelativeToLane X="5.8925 mm" Y="1.35096 mm" SwathNumber="8" IsValid="true" SwathDefinitionID="8" />
+            <SwathRelativeToLane X="6.4955 mm" Y="1.35096 mm" SwathNumber="9" IsValid="true" SwathDefinitionID="9" />
+            <!-- <SwathRelativeToLane X="7.0985 mm" Y="1.35096 mm" SwathNumber="10" IsValid="true" SwathDefinitionID="10" /> -->
+        </LaneRelativeToFlowCell>
+        
+        <!-- Lane 2 mock run swaths -->
+        <LaneRelativeToFlowCell X="12.849 mm" Y="13.150992 mm" LaneNumber="2" PumpNumber="2">
+            <!--<SwathRelativeToLane X="0.4625 mm" Y="1.35096 mm" SwathNumber="1" IsValid="true" SwathDefinitionID="1" />-->
+            <SwathRelativeToLane X="1.0655 mm" Y="1.35096 mm" SwathNumber="2" IsValid="true" SwathDefinitionID="2" />
+            <SwathRelativeToLane X="1.6685 mm" Y="1.35096 mm" SwathNumber="3" IsValid="true" SwathDefinitionID="3" />
+            <SwathRelativeToLane X="2.2715 mm" Y="1.35096 mm" SwathNumber="4" IsValid="true" SwathDefinitionID="4" />
+            <SwathRelativeToLane X="2.8745 mm" Y="1.35096 mm" SwathNumber="5" IsValid="true" SwathDefinitionID="5" /> 
+            <SwathRelativeToLane X="4.6865 mm" Y="1.35096 mm" SwathNumber="6" IsValid="true" SwathDefinitionID="6" /> 
+            <SwathRelativeToLane X="5.2895 mm" Y="1.35096 mm" SwathNumber="7" IsValid="true" SwathDefinitionID="7" />
+            <SwathRelativeToLane X="5.8925 mm" Y="1.35096 mm" SwathNumber="8" IsValid="true" SwathDefinitionID="8" />
+            <SwathRelativeToLane X="6.4955 mm" Y="1.35096 mm" SwathNumber="9" IsValid="true" SwathDefinitionID="9" />
+            <!--<SwathRelativeToLane X="7.0985 mm" Y="1.35096 mm" SwathNumber="10" IsValid="true" SwathDefinitionID="10" />-->
+        </LaneRelativeToFlowCell>
+    </LanePositionsRelativeToFlowCell>
+</FlowCellDescriptor>
