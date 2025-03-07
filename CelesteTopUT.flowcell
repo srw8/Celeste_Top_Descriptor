@@ -96,7 +96,7 @@
     <LanePositionsRelativeToFlowCell>
         <!-- Lane 1 mock run swaths -->
         <LaneRelativeToFlowCell X="2.589 mm" Y="13.150992 mm" LaneNumber="1" PumpNumber="1"> <!-- lane to die corner distance -->
-            <!-- <SwathRelativeToLane X="0.4625 mm" Y="1.35096 mm" SwathNumber="1" IsValid="true" SwathDefinitionID="1" />-->
+            <SwathRelativeToLane X="0.4625 mm" Y="1.35096 mm" SwathNumber="1" IsValid="true" SwathDefinitionID="1" />
             <SwathRelativeToLane X="1.0655 mm" Y="1.35096 mm" SwathNumber="2" IsValid="true" SwathDefinitionID="2" /> 
             <SwathRelativeToLane X="1.6685 mm" Y="1.35096 mm" SwathNumber="3" IsValid="true" SwathDefinitionID="3" />
             <SwathRelativeToLane X="2.2715 mm" Y="1.35096 mm" SwathNumber="4" IsValid="true" SwathDefinitionID="4" />
@@ -119,7 +119,7 @@
             <SwathRelativeToLane X="5.2895 mm" Y="1.35096 mm" SwathNumber="7" IsValid="true" SwathDefinitionID="7" />
             <SwathRelativeToLane X="5.8925 mm" Y="1.35096 mm" SwathNumber="8" IsValid="true" SwathDefinitionID="8" />
             <SwathRelativeToLane X="6.4955 mm" Y="1.35096 mm" SwathNumber="9" IsValid="true" SwathDefinitionID="9" />
-            <!--<SwathRelativeToLane X="7.0985 mm" Y="1.35096 mm" SwathNumber="10" IsValid="true" SwathDefinitionID="10" />-->
+            <SwathRelativeToLane X="7.0985 mm" Y="1.35096 mm" SwathNumber="10" IsValid="true" SwathDefinitionID="10" />
         </LaneRelativeToFlowCell>
     </LanePositionsRelativeToFlowCell>
 </FlowCellDescriptor>
